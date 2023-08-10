@@ -45,12 +45,17 @@ function Navbar(): JSX.Element {
                   About
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/">
+                  Contact
+                </Link>
+              </li>
             </ul>
             <form className="d-flex">
               <input
                 className="form-control me-sm-2"
                 type="search"
-                placeholder="Search"
+                placeholder="Type something"
               ></input>
               <button className="btn btn-secondary my-2 my-sm-0" type="submit">
                 Search
