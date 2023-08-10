@@ -1,7 +1,7 @@
 function HomePage(): JSX.Element {
   return (
     <div className="container">
-      <h1 className="titles">Holis Mundis</h1>
+      <h1 className="titles">Home</h1>
     </div>
   );
 }
