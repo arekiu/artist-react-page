@@ -1,10 +1,7 @@
-import { Link } from "react-router-dom";
-import "../index.css";
-
 function HomePage(): JSX.Element {
   return (
-    <div>
-      <h1>Holis Mundis</h1>
+    <div className="container">
+      <h1 className="titles">Holis Mundis</h1>
     </div>
   );
 }
