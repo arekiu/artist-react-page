@@ -11,27 +11,27 @@ function GalleryPage(): JSX.Element {
       <h1 className="titles">Gallery</h1>
 
       <div className="icons text-center">
-        <div className="single-icon text-center col-md-1 col-sm-2 col-2">
+        <div className="single-icon text-center col-md-1 col-sm-2 col-3">
           <img className="img-artist" src={iconAll} alt="all icon" />
           <h5>All</h5>
         </div>
-        <div className="single-icon text-center col-md-1 col-sm-2 col-2">
+        <div className="single-icon text-center col-md-1 col-sm-2 col-3">
           <img className="img-artist" src={iconBrush} alt="Brush icon" />
           <h5>Paint</h5>
         </div>
-        <div className="single-icon text-center col-md-1 col-sm-2 col-2">
+        <div className="single-icon text-center col-md-1 col-sm-2 col-3">
           <img className="img-artist" src={iconDigital} alt="Digital icon" />
           <h5>Digital</h5>
         </div>
-        <div className="single-icon text-center col-md-1 col-sm-2 col-2">
+        <div className="single-icon text-center col-md-1 col-sm-2 col-3">
           <img className="img-artist" src={iconPen} alt="Pen icon" />
           <h5>Pen</h5>
         </div>
-        <div className="single-icon text-center col-md-1 col-sm-2 col-2">
+        <div className="single-icon text-center col-md-1 col-sm-2 col-3">
           <img className="img-artist" src={iconPencil} alt="Pencil icon" />
           <h5>Pencil</h5>
         </div>
-        <div className="single-icon text-center col-md-1 col-sm-2 col-2">
+        <div className="single-icon text-center col-md-1 col-sm-2 col-3">
           <img
             className="img-artist"
             src={iconPirograf}
