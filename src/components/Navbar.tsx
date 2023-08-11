@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import miniLogo from "../assets/mini-logo.png";
 
 function Navbar(): JSX.Element {
   const [isMenuOpen, setIsMenuOpen] = useState(false); // Initialize state for menu visibility
@@ -14,6 +15,12 @@ function Navbar(): JSX.Element {
       <nav className="navbar navbar-expand-lg bg-light" data-bs-theme="light">
         <div className="container-fluid mx-2">
           <Link className="navbar-brand" to="/">
+            <img
+              className="img-artist"
+              id="nav-image"
+              src={miniLogo}
+              alt="Johnny logo"
+            />
             Johnny Franco
           </Link>
           <button

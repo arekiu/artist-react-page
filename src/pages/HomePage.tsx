@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
 import logo from "../assets/logo_name.png";
 import profileImage from "../assets/perfil.png";
+import iconAll from "../assets/icon-all.png";
 
 function HomePage(): JSX.Element {
   return (
     <div className="container ">
-      <section className="container ">
+      <section className="container " id="section-first">
         <h1 className="titles">Welcome</h1>
 
         <div className="divided-container">
@@ -44,8 +45,39 @@ function HomePage(): JSX.Element {
         </div>
       </section>
 
+      <section
+        className="alert alert-dismissible alert-primary text-white bg-primary"
+        id="section-gallery"
+      >
+        <div className="divided">
+          <div className="divided-vertical  col-md-6 col-sm-12 col-12 text-center">
+            <h3 id="home-text">Take a Look to the Gallery!</h3>
+            <p>
+              {" "}
+              Step inside the virtual gallery and experience the diverse world
+              of creativity going from pen and pencil sketches to vibrant
+              painted pieces and even mesmerizing pyrography creations
+            </p>
+            <Link to="/gallery">
+              <button id="gallery-btn" type="button" className="btn btn-light">
+                Take me there!
+              </button>
+            </Link>
+          </div>
+          <div className=" col-md-3 col-sm-5 col-6">
+            <img className="img-artist" src={iconAll} alt="icon gallery" />
+          </div>
+        </div>
+      </section>
+
       <section className="">
         <div className="about-info">
+          <div
+            className="card border-light mb-3 col-md-2 col-sm-6 col-7"
+            id="profile-img"
+          >
+            <img className="img-artist" src={profileImage} alt="artist" />
+          </div>
           <div className="quote">
             <figure className="text-end">
               <blockquote className="blockquote">
@@ -57,12 +89,6 @@ function HomePage(): JSX.Element {
                 Johnny Franco
               </figcaption>
             </figure>
-          </div>
-          <div
-            className="card border-light mb-3 col-md-2 col-sm-6 col-10"
-            id="profile-img"
-          >
-            <img className="img-artist" src={profileImage} alt="artist" />
           </div>
         </div>
       </section>
