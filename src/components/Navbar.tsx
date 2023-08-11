@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { useState } from "react"; // Import useState
+import { useState } from "react";
 
 function Navbar(): JSX.Element {
   const [isMenuOpen, setIsMenuOpen] = useState(false); // Initialize state for menu visibility
@@ -19,7 +19,7 @@ function Navbar(): JSX.Element {
           <button
             className="navbar-toggler"
             type="button"
-            onClick={toggleMenu} // Use the toggleMenu function
+            onClick={toggleMenu}
             aria-label="Toggle navigation"
           >
             <span className="navbar-toggler-icon"></span>

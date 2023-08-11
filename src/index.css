@@ -3,19 +3,12 @@
   padding: 0;
 }
 
-.titles {
-  margin: 3rem;
-}
-
 #navbar {
   margin: 5px;
 }
 
-.img-artist {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  border-radius: 4px;
+.titles {
+  margin: 2.5rem;
 }
 
 .container {
@@ -25,6 +18,32 @@
   align-items: center;
 }
 
+.divided-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+/* HomePage styles */
+
+#home-image {
+  margin-bottom: 1.5rem;
+}
+
+.img-artist {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+}
+
+#profile-img {
+  margin: 0 2rem;
+}
+
+/* AboutPage Styles */
 .about-info {
   display: flex;
   flex-wrap: wrap;
@@ -40,6 +59,20 @@
   margin: 0 2rem;
 }
 
-#profile-img {
-  margin: 0 2rem;
+/* Gallery styles */
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.single-icon {
+  padding: 0;
+  margin: 0 1rem;
+}
+
+.single-icon > h5 {
+  margin: 0;
 }
